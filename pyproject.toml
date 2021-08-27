@@ -9,8 +9,12 @@ homepage = "https://github.com/radifar/hypermodern-radifar"
 repository = "https://github.com/radifar/hypermodern-radifar"
 keywords = ["hypermodern"]
 
+[tool.poetry.scripts]
+hypermodern-radifar = "hypermodern_radifar.console:main"
+
 [tool.poetry.dependencies]
 python = "^3.9"
+click = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
 
